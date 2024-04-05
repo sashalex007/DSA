@@ -1,4 +1,5 @@
 **Link:** https://leetcode.com/problems/number-of-valid-subarrays/  
+#### Solution:  
   
 **DSA:** [monotonic stack](../DSA/monotonic%20stack.md), [subarray](../DSA/subarray.md)  
   
@@ -33,3 +34,4 @@ def valid_subarrays(nums):
 ![IMG_C78706BD982B-1.jpeg](./_pics/IMG_C78706BD982B-1.jpeg)  
   
   
+#review 
