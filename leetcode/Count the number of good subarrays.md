@@ -1,4 +1,5 @@
 **Link:** https://leetcode.com/problems/count-the-number-of-good-subarrays/  
+#### Solution:  
   
 **DSA:** [sliding window](../DSA/sliding%20window.md), [hash map](../DSA/hash%20map.md), [subarray](../DSA/subarray.md)  
   
@@ -54,3 +55,5 @@ def countGood(self, A: List[int], k: int) -> int:
 **Visual**   
   
 ![IMG_BA306C151DA9-1.jpeg](./_pics/IMG_BA306C151DA9-1.jpeg)  
+  
+#review 
