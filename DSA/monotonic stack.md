@@ -1,4 +1,4 @@
-**DSA:** [stack](./stack.md), [subarray](./subarray.md)  
+**DSA:** [stack](./stack.md), [subarray](./subarray.md), [sorted order](./sorted%20order.md)  
   
 **Intuition**  
 Always related to [subarray](./subarray.md) problems, typically counting the number of subarrays that meet some condition, or finding the next bigger/smaller. The basic intuition is that when you need to see future elements to decide something about the current element (does it meet some condition), AND the condition involves being the biggest or smallest, monotonic stack is used.  
