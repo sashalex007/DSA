@@ -1,3 +1,4 @@
+  
 **Link:** https://leetcode.com/problems/minimum-replacements-to-sort-the-array/  
   
 #### Solution  
@@ -32,7 +33,7 @@ Here is how:
 first_num = nums[i]//length # 7 // 2 in our case  
 ```  
   
-Why does this work? Because 7/2 is 3.5 which would split 7 evenly across the length, but splitting into floating point numbers i not allowed, even though its more optimal, so we have to settle with rounding down. Note that we cannot round up because `[4,3]` is decreasing.   
+Why does this work? Because 7/2 is 3.5 which would split 7 evenly across the length, but splitting into floating point numbers is not allowed, even though its more optimal, so we have to settle with rounding down. Note that we cannot round up because `[4,3]` is decreasing.   
   
 The number of splits is `length - 1` because the first split counts as one even though the subarray length is 2.  
   
