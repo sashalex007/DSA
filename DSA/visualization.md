@@ -32,11 +32,8 @@ Linear recursion
   
 ![IMG_286FEE6F563A-1.jpeg](./_pics/IMG_286FEE6F563A-1.jpeg)  
   
-[tree](tree.md)  
-1. imagine building a binary tree. DFS, BFS  
-  
-[graph](graph.md)  
-1. imagine building out a graph. DFS, BFS  
+[topological order](topological%20order.md)  
+![IMG_D9EC72154390-1.jpeg](./_pics/IMG_D9EC72154390-1.jpeg)  
   
 [hash map](./hash%20map.md)  
   
@@ -46,5 +43,7 @@ Linear recursion
   
 ![IMG_87FCB9227EEE-1.jpeg](./_pics/IMG_87FCB9227EEE-1.jpeg)  
   
+nested loop  
   
+![IMG_FD404D043358-1](./_pics/IMG_FD404D043358-1.jpeg)  
   
