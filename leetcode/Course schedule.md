@@ -41,7 +41,7 @@ def course_schedule(num_courses, prerequisites):
 ```  
   
 **Visual**   
-  
+same as [Course schedule II](./Course%20schedule%20II.md)  
   
 #review   
   
