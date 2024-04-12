@@ -43,7 +43,7 @@ def time_infected(root, start):
 ```  
   
 **Visual**   
-  
+![IMG_02A67346B2B8-1.jpeg](./_pics/IMG_02A67346B2B8-1.jpeg)  
   
 #review   
   
