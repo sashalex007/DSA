@@ -26,6 +26,7 @@ def largest_triangle(points):
 **Visual**   
 ![IMG_FD404D043358-1.jpeg](./_pics/IMG_FD404D043358-1.jpeg)  
   
+![IMG_5B817006572E-1.jpeg](./_pics/IMG_5B817006572E-1.jpeg)  
 #review   
   
   
