@@ -2,7 +2,7 @@
 **Link:** https://leetcode.com/problems/painting-the-walls/  
 #### Solution:  
   
-**DSA**: [DP](DP.md), [DFS](DFS.md), [subsequence](subsequence.md)  
+**DSA**: [DP](DP.md), [DFS](DFS.md), [subsequence](../DSA/subsequence.md)  
   
 **Intuition**  
 This seems like a heap problem, but its not. The reason why it's not is because there is not an optimal way to use the paid painter and the free painter. It seems like you can use a min_heap for the paid painter and max_heap for the paid painter...but there are edge cases where this does no work. There are cases where choosing a higher cost/time wall is more optimal for the paid painter because its also about making sure the paid painter is working whenever the paid painter is!  
@@ -26,7 +26,7 @@ max_heap = [4, 2, 1.5, 0.5]
   
 So now that the heap strategy has been invalidated, lets talk about how to actually solve this problem.  
   
-It boils down to this insight: for every wall that we assign to the paid painter, the free painter can paint `time[i]` walls. We don't actually care which walls the free painter paints, because we can choose a min [subsequence](subsequence.md) of walls, such that the number of walls painted is greater or equal to the total number of walls.   
+It boils down to this insight: for every wall that we assign to the paid painter, the free painter can paint `time[i]` walls. We don't actually care which walls the free painter paints, because we can choose a min [subsequence](../DSA/subsequence.md) of walls, such that the number of walls painted is greater or equal to the total number of walls.   
   
 For example:  
 ```python  
