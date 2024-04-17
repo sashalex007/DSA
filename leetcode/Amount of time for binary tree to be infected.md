@@ -2,7 +2,7 @@
 **Link:** https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/  
 #### Solution:  
   
-**Topics**: [BFS](../DSA/BFS.md), [graph](graph.md), [tree](tree.md)  
+**Topics**: [BFS](../DSA/BFS.md), [graph](graph.md), [tree](../DSA/tree.md)  
   
 **Intuition**  
 Not much to this problem. We just convert the tree to a graph, find the start node and then perform a BFS.   
