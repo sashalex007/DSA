@@ -7,7 +7,7 @@
 **Intuition**  
 Really weird problem, but the iterative approach kind of makes sense. I will improve this editorial upon future revisions.  
   
-The key insight seems to be the fact that in one round of testing, `n` pigs can test `2**n` buckets. In two rounds of testing, `n` pigs can test `3**n` buckets. Or more generally, `(rounds+1)**n`. Its a bit unclear to me why exactly this is the case, but Im going to trust it for now and improve on this editorial later. This seems to be an encoding problem.  
+The key insight seems to be the fact that in one round of testing, `n` pigs can test `2**n` buckets. In two rounds of testing, `n` pigs can test `3**n` buckets. Or more generally, `(rounds+1)**n`. Its a bit unclear to me why exactly this is the case, but I'm going to trust it for now and improve on this editorial later. This seems to be an encoding problem.  
   
 ```  
 rounds = 1  
