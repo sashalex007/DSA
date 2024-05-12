@@ -39,5 +39,3 @@ def select_buildings(s):
   
   
 #review   
-  
-  
